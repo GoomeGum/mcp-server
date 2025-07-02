@@ -17,7 +17,6 @@ mcp_server/
 ├── main.py                      # FastAPI application with MCP endpoints
 ├── models.py                    # Pydantic models for request/response schemas
 ├── cache.py                     # Caching functionality and prompt elaboration
-├── test.py                      # Test file
 ├── requirements.txt             # Python dependencies
 ├── similarity_results_train.csv # Training data for cached elaborate prompts
 ├── MCPServer.ipynb              # Google Colab notebook implementation
