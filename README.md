@@ -39,18 +39,13 @@ mcp_server/
 2. Run all cells to install dependencies and start the server
 3. The server will create a public ngrok tunnel - access the API at: `{ngrok_url}/docs`
 
-### For Local Development
+### For Local Development (GPU is needed)
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Run the server:
-   ```bash
-   uvicorn main:app --reload
-   ```
-
-3. Access the API documentation at: `http://localhost:8000/docs`
+2. Access the API documentation at: `http://localhost:8000/docs`
 
 ## Usage Examples
 
